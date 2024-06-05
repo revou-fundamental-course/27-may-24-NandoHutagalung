@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    text-align: right;
+    padding: 10px 20px;
+}
+
+.navbar {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 10px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.navbar li a:hover {
+    background-color: #5f0bfc; /* Warna latar belakang saat dihover */
+}
+
+.navbar li a.active {
+    background-color: #777777; /* Warna latar belakang saat aktif */
+}
+
+.about, .vision-mission {
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.round-image {
+    border-radius: 50%;
+    width: 100px; /* Ukuran gambar kecil */
+    height: 100px; /* Ukuran gambar kecil */
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image-item {
+    text-align: center;
+}

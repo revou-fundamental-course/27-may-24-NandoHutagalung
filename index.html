@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Profil Sekolah</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    .flex-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .left-box, .right-box {
+        flex: 1;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .left-box {
+        margin-right: 10px;
+    }
+
+    label {
+        font-weight: bold;
+    }
+
+    select, input, textarea {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    button {
+        margin-top: 10px;
+    }
+
+    .footer {
+        position: fixed;
+        bottom: 10px;
+        left: 10px;
+        font-style: italic;
+        color: #888;
+    }
+</style>
+</head>
+<body>
+<header class="banner">
+    <h1>Welcome To Profil School</h1>
+</header>
+<nav>
+    <ul class="navbar">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Our Profile</a></li>
+        <li><a href="#">Achievement</a></li>
+        <li><a href="#">Message Us</a></li>
+    </ul>
+</nav>
+<hr>
+<section class="about">
+    <h2>Hi Nando, Welcome To Website</h2>
+    <p>Ini adalah website latihan pertama</p>
+    <img src="pict2jpg.jpg" alt="Gambar Website" width="1366" height="578">
+</section>
+<hr>
+<section class="vision-mission">
+    <h2>Our Faciliation</h2>
+    <div class="image-container">
+        <div class="image-item">
+            <img src="guru.jpeg" alt="Gambar 1" class="round-image">
+            <p>Profesional Teacher</p>
+        </div>
+        <div class="image-item">
+            <img src="pict3t.png" alt="Gambar 2" class="round-image">
+            <p>Sport Field</p>
+        </div>
+        <div class="image-item">
+            <img src="guru.jpeg" alt="Gambar 3" class="round-image">
+            <p>Classroom</p>
+        </div>
+    </div>
+</section>
+<hr>
+<h2>Message Us</h2>
+<div class="flex-container">
+    <div class="left-box">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" required>
+        <label for="place">Tempat Lahir:</label>
+        <input type="text" id="place" name="place" required>
+        <label for="gender">Jenis Kelamin:</label>
+        <select id="gender" name="gender" required>
+            <option value="laki-laki">Laki-laki</option>
+            <option value="perempuan">Perempuan</option>
+        </select>
+        <button type="submit">Kirim</button>
+    </div>
+    <div class="right-box">
+        <label for="current-time">Current Time:</label>
+        <label for="name">Nama:</label>
+        <label for="place">Tempat Lahir:</label>
+        <label for="gender">Jenis Kelamin:</label>
+        <label for="message">Pesan:</label>
+    </div>
+</div>
+<hr>
+</section>
+<div class="footer">Created By Nando</div>
+<script src="js/script.js"></script>
+</body>
+</html>
